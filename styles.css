@@ -12,6 +12,46 @@ h1 {
     text-align: center;
 }
 
+.banner {
+    padding: 3%;
+    text-align: center;
+    background-image: url("./cc.jpg");
+}
+
+.flex-container-1 {
+    display: flex;
+    color: white;
+}
+
+.flex-container-1 h2 {
+    margin: 3% 0;
+    width: 100%;
+}
+
+.AccessibilityInterest {
+    background-color: darkslategrey;
+    color: white;
+    padding: 10px;
+}
+
+.AccessibilityInterest h2 {
+    margin: 1% 0;
+    width: 100%;
+}
+
+.AccessibilityInterest li {
+    margin: 1% 0;
+    font-size: 18px;
+}
+
+.AccessibilityInterest p {
+    color: white;
+    font-size: 18px;
+}
+.flex-container-1 li {
+    margin: 1% 0;
+    font-size: 18px;
+}
 
 .AboutMe {
     background-color: maroon;
@@ -21,4 +61,24 @@ h1 {
 .AboutMe h2 {
     color: white;
     font-size: 24px;
+}
+
+.AboutMe p {
+    color: white;
+    font-size: 18px;
+}
+
+.AboutMe a, a:visited{
+    color: yellow;
+    font-size: 18px;
+}
+
+.AboutMe a:hover {
+    color: darkorange;
+}
+
+.AboutMe img {
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
 }
