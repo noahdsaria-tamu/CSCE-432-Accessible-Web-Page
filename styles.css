@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-    color: maroon;
+    color: white;
     margin: 0;
     padding: 20px;
     text-align: center;
@@ -29,9 +29,10 @@ h1 {
 }
 
 .AccessibilityInterest {
-    background-color: darkslategrey;
-    color: white;
+    background-color: #e0e0e0;
+    color: maroon;
     padding: 10px;
+    display: flex;
 }
 
 .AccessibilityInterest h2 {
@@ -45,7 +46,7 @@ h1 {
 }
 
 .AccessibilityInterest p {
-    color: white;
+
     font-size: 18px;
 }
 .flex-container-1 li {
@@ -78,7 +79,31 @@ h1 {
 }
 
 .AboutMe img {
-    width: 20%;
+    width: 25%;
     height: auto;
     border-radius: 50%;
+}
+
+.QuestionSection {
+    background-color: darkslategrey;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.AccessibilityInterest > img {
+    width: 30%;
+    height: auto;
+}
+
+.questionBox {
+    width: 40%;
+    height: auto;
+  
+}
+
+.QuestionSection > img {
+    width: 20%;
+    height: auto;
 }
